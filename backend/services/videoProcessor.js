@@ -29,7 +29,7 @@ let nsfwModelLoadingPromise = null;
 
 const MODEL_URLS = [
   'https://cdn.jsdelivr.net/gh/infinitered/nsfwjs@master/example/nsfw_demo/public/models/model.json',
-  'http://localhost:5000/models/nsfw/model.json'
+  'https://pulse-video-streaming-p.onrender.com/models/nsfw/model.json'
 ];
 
 async function loadNSFWModel() {

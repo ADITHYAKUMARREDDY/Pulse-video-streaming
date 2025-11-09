@@ -19,7 +19,7 @@ export const SocketProvider = ({ children }) => {
   useEffect(() => {
     if (user && token) {
       // Initialize socket connection
-      const newSocket = io('http://localhost:5000', {
+      const newSocket = io('https://pulse-video-streaming-p.onrender.com', {
         auth: {
           token: token
         },

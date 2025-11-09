@@ -5,7 +5,7 @@ import './index.css'
 import axios from 'axios'
 
 // Configure axios base URL
-axios.defaults.baseURL = 'http://localhost:5000'
+axios.defaults.baseURL = 'https://pulse-video-streaming-p.onrender.com'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

@@ -31,7 +31,7 @@ const VideoPlayer = () => {
       const port = window.location.port ? `:${window.location.port}` : '';
       // For development, use proxy. For production, use full URL or relative path
       const apiBase = import.meta.env.DEV 
-        ? `http://localhost:5000` 
+        ? `https://pulse-video-streaming-p.onrender.com` 
         : `${protocol}//${host}${port}`;
       const url = `${apiBase}/api/videos/${id}/stream${token ? `?token=${token}` : ''}`;
       setVideoUrl(url);
